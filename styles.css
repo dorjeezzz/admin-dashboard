@@ -36,6 +36,20 @@ button{
     font-weight: bold;
 }
 
+.hbotleft{
+    display: flex;
+    /* background-color: blue; */
+    width: 26%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
 .hbotright{
     display: flex;
     align-items: center;
