@@ -28,11 +28,12 @@ body{
 }
 
 button{
-    border-radius: 25%;
+    border-radius: 20px;
     background-color:rgb(20, 143, 245);
     color: white;
     border: 1px solid white;
-    padding: 10px 25px;
+    padding: 10px 27px;
+    font-weight: bold;
 }
 
 .hbotright{
@@ -40,7 +41,7 @@ button{
     align-items: center;
     justify-content: space-between;
     margin-right: 65px;
-    width: 37%;
+    width: 30%;
     /* background-color: red; */
 }
 
