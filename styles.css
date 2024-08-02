@@ -72,7 +72,43 @@ button{
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
-    background: url(./transform.gif);
+    background: url(./fordashboard.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.outline2{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(./reiner.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.outline3{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(./bertoldt.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.outline4{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(./icegif-493.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.outline5{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(./zeke.webp);
     background-size: cover;
     background-position: center;
 }
