@@ -44,6 +44,10 @@ button{
     justify-content: space-between;
 }
 
+span{
+    font-size: 12px;
+}
+
 .intro{
     display: flex;
     flex-direction: column;
@@ -107,10 +111,16 @@ img{
 .item{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     border-radius: 8px;
     box-shadow: 100px blue;
     box-shadow: 1px 3px 4px -2px rgb(201, 201, 201);
 }
+
+.title{
+    font-weight: bold;
+}
+
 
 .header{
     width: 100%;
