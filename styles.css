@@ -20,6 +20,30 @@ body{
     width: 100%;
 }
 
+.bot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: red; */
+}
+
+button{
+    border-radius: 25%;
+    background-color:rgb(20, 143, 245);
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+}
+
+.hbotright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 65px;
+    width: 37%;
+    /* background-color: red; */
+}
+
 .outline{
     border-radius: 50%;
     width: 2.5rem;
