@@ -77,6 +77,15 @@ button{
     background-position: center;
 }
 
+
+.orange{
+    background-color: red;
+    width: 1px;
+    height: auto;
+    position: absolute;
+    left: 50;
+}
+
 .outline2{
     border-radius: 50%;
     width: 2.5rem;
@@ -150,12 +159,25 @@ img{
 
 .item{
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    justify-content: space-around;
     border-radius: 10px;
     box-shadow: 100px blue;
     box-shadow: 1px 3px 4px -2px rgb(201, 201, 201);
     padding: 10px 20px;
+    align-items: center;
+    position: relative;
+}
+
+.border{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 9px;
+    height: 100%;
+    border-left: 10px solid orange;
+    border-radius: 10px;
+    pointer-events: none;
 }
 
 .title{
