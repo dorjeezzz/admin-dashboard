@@ -162,8 +162,10 @@ img{
     display: flex;
     align-items: center;
     width: 100px;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     height: 30px;
+    width: 100%;
+    /* background-color: red; */
 }
 
 .filter-white{
@@ -214,6 +216,11 @@ img{
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .sidebar{
     background-color:rgb(20, 143, 245);
     width: 21.05vw;
@@ -233,6 +240,11 @@ img{
     display: flex;
     width: 100%;
     background-color: rgb(242, 242, 242);
+}
+
+.dashb{
+    width: 50px !important;
+    height: 50px !important;
 }
 
 .box{
@@ -258,11 +270,24 @@ img{
 }
 
 .items{
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    flex-direction: column;
     gap: 10px 0px;
     color: white;
-    height: 500px;
+    height: 272px;
+}
+
+.sidei>p{
+    font-weight: bold;
+}
+
+.sidebartop{
+    display: flex;
+    align-items: center;
+    color: white;
+    /* background-color: red; */
+    height: 10%;
+    margin-top: 0;
 }
 
 .name{
